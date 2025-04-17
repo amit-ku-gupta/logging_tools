@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 public class UserService {
      private Logger logger=LoggerFactory.getLogger(UserService.class);
 	public void saveUser() {
-		logger.trace("this is trace message");
-		logger.debug("this is debug message");
-		logger.info("this is info message");
-		logger.warn("this is warn message");
-		logger.error("this is error message");
+		logger.trace("this is trace msg");
+		logger.debug("this is debug msg");
+		logger.info("this is info msg");
+		logger.warn("this is warn msg");
+		logger.error("this is error msg");
 	}
 }
