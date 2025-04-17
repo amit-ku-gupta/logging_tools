@@ -1,0 +1,22 @@
+2025-04-15 14:42:27,962 [main] INFO  in.ashokit.Application                             - Starting Application using Java 21.0.5 with PID 21588 (D:\jrtp29\01-Logging_App\target\classes started by amitk in D:\jrtp29\01-Logging_App)
+2025-04-15 14:42:27,965 [main] INFO  in.ashokit.Application                             - No active profile set, falling back to 1 default profile: "default"
+2025-04-15 14:42:28,556 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8082 (http)
+2025-04-15 14:42:28,566 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8082"]
+2025-04-15 14:42:28,567 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2025-04-15 14:42:28,569 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-15 14:42:28,605 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2025-04-15 14:42:28,606 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 608 ms
+2025-04-15 14:42:28,878 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8082"]
+2025-04-15 14:42:28,901 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8082 (http) with context path '/'
+2025-04-15 14:42:28,908 [main] INFO  in.ashokit.Application                             - Started Application in 1.206 seconds (process running for 1.959)
+2025-04-15 14:42:28,912 [main] INFO  in.ashokit.service.UserService                     - this is info msg
+2025-04-15 14:42:28,912 [main] WARN  in.ashokit.service.UserService                     - this is warn msg
+2025-04-15 14:42:28,912 [main] ERROR in.ashokit.service.UserService                     - this is error msg
+2025-04-15 14:42:28,912 [main] INFO  in.ashokit.service.ReportService                   - this is info msg
+2025-04-15 14:42:28,912 [main] WARN  in.ashokit.service.ReportService                   - this is warn msg
+2025-04-15 14:42:28,912 [main] ERROR in.ashokit.service.ReportService                   - this is error msg
+2025-04-15 14:43:24,365 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-04-15 14:43:24,367 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.w.embedded.tomcat.GracefulShutdown           - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-15 14:43:24,368 [tomcat-shutdown] INFO  o.apache.coyote.http11.Http11NioProtocol           - Pausing ProtocolHandler ["http-nio-8082"]
+2025-04-15 14:43:24,390 [tomcat-shutdown] INFO  o.s.b.w.embedded.tomcat.GracefulShutdown           - Graceful shutdown complete
+2025-04-15 14:43:24,391 [RMI TCP Connection(10)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8082"]
